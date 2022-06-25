@@ -20,10 +20,6 @@ var ground = BABYLON.MeshBuilder.CreateGround('ground', {width: 6, height: 6}, s
 camera.attachControl(canvas, true)
 
 
-
-
-
-
 engine.runRenderLoop( () => {
     scene.render();
 })   
