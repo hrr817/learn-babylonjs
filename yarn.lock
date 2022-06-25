@@ -504,6 +504,19 @@ array-flatten@^2.1.2:
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
   integrity sha512-hNfzcOV8W4NdualtqBFPyVO+54DSJuZGY9qT4pRroB6S9e3iiido2ISIC5h9R2sPJ8H3FHCIiEnsv1lPXO3KtQ==
 
+babylonjs-gltf2interface@^5.12.1:
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/babylonjs-gltf2interface/-/babylonjs-gltf2interface-5.12.1.tgz#071dc102a6f0884729cc6e8f8100a3dbb980661d"
+  integrity sha512-a/4BoUHqqq48xcvPTHuDpbPEQnrTveoDvb9bHEiRdixo6pad40MehqJNs9ZK8ru0RDFLeyCJUPUhMykMazxq8w==
+
+babylonjs-loaders@^5.12.1:
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/babylonjs-loaders/-/babylonjs-loaders-5.12.1.tgz#3e0bd4eb50b899df9e13a6d68a42b1438a21ca5a"
+  integrity sha512-XE7gG8RcDGV+2DqMsDkURixFxF0Uo9az4XA84HATS/EYCEKZdpRhwcPxPUziClT4BHlVMNRXQ8RCLRDbNWAqkg==
+  dependencies:
+    babylonjs "^5.12.1"
+    babylonjs-gltf2interface "^5.12.1"
+
 babylonjs@^5.12.1:
   version "5.12.1"
   resolved "https://registry.yarnpkg.com/babylonjs/-/babylonjs-5.12.1.tgz#3f8f887598d9394ee877bd46e4726b0bdf9a97d6"
